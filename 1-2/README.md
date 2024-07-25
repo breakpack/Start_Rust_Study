@@ -1,6 +1,8 @@
+```
 fn main() {
     println!("Hello, world!");
 }
+```
 
 **main**
 - 함수는 실행 가능한 함수중에서 가장 먼저 실행됨
