@@ -1,10 +1,11 @@
 **Cargo 사용**  
 
 **명령어 이용**  
-    $ cargo new hello_cargo --bin
-        -> hello_cargo라는 실행가능한 바이너리 생성(--bin인자를 이용)
-
-    $ cd hello_cargo
+```
+$ cargo new hello_cargo --bin
+$ cd hello_cargo
+```
+- hello_cargo라는 실행가능한 바이너리 생성(--bin인자를 이용)
 
 **Cargo.toml**  
 - TOML (Tom’s Obvious, Minimal Language) 포맷으로 작성되었는데, 이것이 Cargo의 환경설정 포맷임
@@ -16,16 +17,24 @@
 - 코딩할때 코드를 src 디렉토리로 옮기고 적합한 Cargo.toml 파일을 생성
 
 **build**  
-    $ cargo build
+```
+$ cargo build
+```
 - build는 Cargo.toml파일이 있는 디렉토리에서 실행 -> target/debug/hello_cargo
 
 **excute**  
-    $ cargo run
+```
+$ cargo run
+```
 - ./hello_cargo로도 실행가능
 
 **compile check**  
-    $ cargo check
+```
+$ cargo check
+```
 - 실행파일 생성은 안함
 
 **release build**  
-    $ cargo build --release
+```
+$ cargo build --release
+```
